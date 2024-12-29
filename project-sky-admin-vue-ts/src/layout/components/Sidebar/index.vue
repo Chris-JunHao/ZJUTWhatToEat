@@ -135,7 +135,7 @@ export default class extends Vue {
 <style lang="scss" scoped>
 .logo {
   text-align: center;
-  background-color: #419eff;
+  background-color: #ffffff;
   padding: 15px 0 0;
   height: 60px;
   img {

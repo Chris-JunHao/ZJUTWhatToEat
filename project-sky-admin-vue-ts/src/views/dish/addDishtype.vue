@@ -566,7 +566,7 @@ export default class extends Vue {
         .delFlavor {
           display: inline-block;
           padding: 0 10px;
-          color: #f19c59;
+          color: #0080ff;
           cursor: pointer;
         }
       }
