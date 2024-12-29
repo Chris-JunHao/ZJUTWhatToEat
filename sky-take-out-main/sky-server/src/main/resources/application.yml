@@ -68,3 +68,6 @@ sky:
     user-secret-key: itcast
     user-ttl: 7200000
     user-token-name: authentication
+  wechat:
+    appid: ${sky.wechat.appid}
+    secret: ${skt.wechat.secret}

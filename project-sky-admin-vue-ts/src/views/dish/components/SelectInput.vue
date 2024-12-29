@@ -27,7 +27,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component({
-  name: 'selectInput',
+  name: 'selectInput'
 })
 export default class extends Vue {
   @Prop({ default: [] }) private selectFlavorsData!: []
@@ -44,7 +44,7 @@ export default class extends Vue {
 
   private outSelect(st: boolean) {
     const _this = this
-    setTimeout(function () {
+    setTimeout(function() {
       _this.mak = st
     }, 200)
   }
@@ -89,7 +89,7 @@ export default class extends Vue {
       }
       &:active {
         background-color: #fffbf0;
-        color: #ffc200;
+        color: #0080ff;
       }
     }
     .none {

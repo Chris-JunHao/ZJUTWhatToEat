@@ -1,15 +1,19 @@
 <!--  -->
 <template>
   <div class="tab-change">
-    <div v-for="item in changedOrderList"
-         :key="item.value"
-         class="tab-item"
-         :class="{ active: item.value === activeIndex }"
-         @click="tabChange(item.value)">
-      <el-badge :class="{'special-item':item.num<10}"
-                class="item"
-                :value="item.num > 99 ? '99+' : item.num"
-                :hidden="!([2, 3, 4].includes(item.value) && item.num)">
+    <div
+      v-for="item in changedOrderList"
+      :key="item.value"
+      class="tab-item"
+      :class="{ active: item.value === activeIndex }"
+      @click="tabChange(item.value)"
+    >
+      <el-badge
+        :class="{ 'special-item': item.num < 10 }"
+        class="item"
+        :value="item.num > 99 ? '99+' : item.num"
+        :hidden="!([2, 3, 4].includes(item.value) && item.num)"
+      >
         {{ item.label }}
       </el-badge>
     </div>
@@ -109,7 +113,7 @@ export default class extends Vue {
     }
   }
   .active {
-    background-color: #ffc200;
+    background-color: #0080ff;
     font-weight: bold;
   }
   .tab-item:first-child {

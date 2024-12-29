@@ -80,7 +80,7 @@ export default class extends mixins(ResizeMixin) {
                     'type': 'category',
                     'axisLine': {
                         'lineStyle': {
-                            'color': '#90979c'
+                            '': '#90979c'
                         }
                     },
                     'splitLine': {
