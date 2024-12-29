@@ -13356,14 +13356,14 @@ input[type="number"] {
 }
 
 .el-button:hover {
-  color: #0080ff; //
-  border-color: #FBE396;
-  background-color: #FFFBF0;
+  color: #0080ff;
+  border-color: #0080ff;
+  background-color: #0080ff;
 }
 
 .el-button:active {
-  color: #efb602;
-  border-color: #efb602;
+  color: #0080ff;
+  border-color: #0080ff;
   outline: 0;
 }
 
@@ -13384,8 +13384,8 @@ input[type="number"] {
 
 .el-button.is-active,
 .el-button.is-plain:active {
-  color: #efb602;
-  border-color: #efb602;
+  color: #0080ff;
+  border-color: #0080ff;
 }
 
 .el-button.is-plain:active {
@@ -13400,7 +13400,7 @@ input[type="number"] {
   cursor: not-allowed;
   background-image: none;
   background-color: #fff;
-  border-color: #ebeef5;
+  border-color: #0080ff;
 }
 
 .el-link,
