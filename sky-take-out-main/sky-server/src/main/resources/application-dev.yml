@@ -6,7 +6,7 @@
 #     database: sky_take_out
 #     username: root
 #     password: sql_1
-sky:
+zju:
   wechat:
     appid: wxa2bfb32b5a2373af
     secret: 387b3b3cc2737dd5caa4294bdea9087e
